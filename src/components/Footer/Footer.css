@@ -1,0 +1,49 @@
+.down {
+  height: 57px;
+  background: #cfd3d7;
+}
+
+.ft {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #434354;
+}
+
+.up {
+  height: 263px;
+}
+
+.foot {
+  background: #dee1e4;
+}
+
+.ft1 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+
+  color: #646465;
+}
+
+.ft2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  color: #292931;
+}
+
+.ft3 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #646465;
+}
