@@ -6,4 +6,14 @@
   width: 10px;
 }
 
+*:focus {
+  outline: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
