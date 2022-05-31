@@ -10,7 +10,7 @@ import li from "../../images/li.svg";
 
 const Footer = () => {
   return (
-    <div className="w-auto h-80 foot">
+    <div className="w-auto h-80 foot mt-4">
       <div className="up flex justify-around items-center">
         <div className="flex flex-col gap-y-4 w-[282px]">
           <img src={logo} width={134} height={44} />

@@ -1,0 +1,116 @@
+.hhead {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #292931;
+}
+
+.hadd {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #646465;
+}
+
+.see {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #2f69ff;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
+  border-radius: 2px;
+}
+
+.line {
+  height: 2px;
+  left: 720px;
+  background-color: #e7ecf2;
+}
+
+.rat {
+  background: linear-gradient(275.36deg, #640ae7 0%, #c856ff 100%);
+  border-radius: 6.88889px;
+  width: 33.3px;
+  height: 21.81px;
+  color: white;
+}
+
+.rat-text {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 37px;
+  color: #434354;
+}
+
+.ut {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 37px;
+  color: #434354;
+}
+
+.cost {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 32px;
+  color: #292931;
+}
+
+.total {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #434354;
+}
+
+.choosebtn {
+  background: linear-gradient(0deg, #292931, #292931),
+    linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
+  border-radius: 0px;
+  width: 239px;
+  height: 60px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+}
+
+.choosebtn:hover {
+  background: linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
+}
+
+.filter-white {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(36deg)
+    brightness(108%) contrast(101%);
+}
+
+.rl {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: right;
+  color: #640ae7;
+}
