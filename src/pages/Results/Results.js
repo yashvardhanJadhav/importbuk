@@ -10,6 +10,7 @@ import c1 from "../../images/c1.svg";
 import c2 from "../../images/c2.svg";
 import c3 from "../../images/c3.svg";
 import c4 from "../../images/c4.svg";
+import Filter from "../../components/Filter/Filter";
 
 const Results = () => {
   return (
@@ -18,7 +19,9 @@ const Results = () => {
       <Bar />
       <img src={toggle} className="m-auto mt-8" />
       <div className="flex items-center mt-2">
-        <div className="lefts w-[374px] h-[1064px]"></div>
+        <div className="lefts w-[374px] flex justify-center">
+          <Filter />
+        </div>
         <div className="rights flex-col">
           <Card
             image={c1}

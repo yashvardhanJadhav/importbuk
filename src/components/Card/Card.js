@@ -27,7 +27,7 @@ const Card = ({
   const handleRatt = (ratings) => {
     let x = Math.round(ratings);
     if (x > 1 && x <= 2) {
-      setRatt("Bad");
+      setRatt("Ok");
     } else if (x > 2 && x <= 3) {
       setRatt("Good");
     } else if (x > 3 && x <= 4) {

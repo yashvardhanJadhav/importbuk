@@ -1,0 +1,28 @@
+.fil {
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+
+.fh {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #292931;
+}
+
+.fsh {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #646465;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: linear-gradient(275.36deg, #640ae7 0%, #c856ff 100%);
+  border-radius: 100px;
+  height: 7px;
+}
