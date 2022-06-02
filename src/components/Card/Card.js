@@ -8,6 +8,7 @@ import cancel from "../../images/cancel.svg";
 import wifi from "../../images/wifi.svg";
 import fp from "../../images/fp.svg";
 import wf from "../../images/wf.svg";
+import { Link } from "react-router-dom";
 
 const Card = ({
   image,
@@ -81,9 +82,11 @@ const Card = ({
         </div>
         <div className="flex flex-col gap-y-2 mt-16 items-center">
           <p className="rl">Hurry up! only {roomsLeft} rooms left</p>
-          <button className="flex items-center gap-x-2 choosebtn justify-center">
-            Choose Room <img src={harr} className="filter-white" />
-          </button>
+          <Link to="/hpage">
+            <button className="flex items-center gap-x-2 choosebtn justify-center">
+              Choose Room <img src={harr} className="filter-white" />
+            </button>
+          </Link>
         </div>
       </div>
     </div>
