@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Results from "./pages/Results/Results";
 import HotelPage from "./pages/HotelPage/HotelPage";
 import Sales from "./pages/Sales/Sales";
+import Checkin from "./pages/Checkin/Checkin";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +18,7 @@ root.render(
         <Route path="/results" element={<Results />} />
         <Route path="/hpage" element={<HotelPage />} />
         <Route path="/sales" element={<Sales />} />
+        <Route path="/checkin" element={<Checkin />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
