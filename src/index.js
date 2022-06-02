@@ -8,6 +8,7 @@ import Results from "./pages/Results/Results";
 import HotelPage from "./pages/HotelPage/HotelPage";
 import Sales from "./pages/Sales/Sales";
 import Checkin from "./pages/Checkin/Checkin";
+import "react-loading-skeleton/dist/skeleton.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -9,6 +9,7 @@ import wifi from "../../images/wifi.svg";
 import fp from "../../images/fp.svg";
 import wf from "../../images/wf.svg";
 import { Link } from "react-router-dom";
+import Skeleton from "react-loading-skeleton";
 
 const Card = ({
   image,
@@ -45,10 +46,10 @@ const Card = ({
     <div className="flex my-6 bg-white card">
       <img src={image} width={346} height={260} />
       <div className="flex flex-col w-[441px] pl-3 pt-5">
-        <p className="hhead">{name}</p>
+        <p className="hhead">{name || <Skeleton />}</p>
         <div className="flex items-center gap-x-2">
           <img src={loc} />
-          <p className="hadd">{address}</p>
+          <p className="hadd">{address || <Skeleton />}</p>
           <p className="see">See Map</p>
           <img src={harr} />
         </div>
@@ -63,7 +64,7 @@ const Card = ({
           <div className="rat flex justify-center items-center ml-2">
             {ratings}
           </div>
-          <div className="rat-text ml-2">{ratt}</div>
+          <div className="rat-text ml-2">{ratt || <Skeleton />}</div>
         </div>
         <p className="ut">{reviews} Users Reviewed</p>
         {isCancel && (
@@ -77,11 +78,13 @@ const Card = ({
       </div>
       <div className="w-[239px] flex flex-col border-l-2">
         <div className="flex flex-col gap-y-1">
-          <p className="mt-16 ml-28 cost">${price}</p>
-          <p className="ml-28 total">Total ${total}</p>
+          <p className="mt-16 ml-28 cost">${price || <Skeleton />}</p>
+          <p className="ml-28 total">Total ${total || <Skeleton />}</p>
         </div>
         <div className="flex flex-col gap-y-2 mt-16 items-center">
-          <p className="rl">Hurry up! only {roomsLeft} rooms left</p>
+          <p className="rl">
+            Hurry up! only {roomsLeft || <Skeleton />} rooms left
+          </p>
           <Link to="/hpage">
             <button className="flex items-center gap-x-2 choosebtn justify-center">
               Choose Room <img src={harr} className="filter-white" />
