@@ -18,6 +18,7 @@
 
 .foot {
   background: #dee1e4;
+  height: 320px;
 }
 
 .ft1 {
@@ -46,4 +47,23 @@
   font-size: 14px;
   line-height: 24px;
   color: #646465;
+}
+
+.upm {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .up {
+    display: none;
+  }
+  .upm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 96px;
+  }
+  .foot {
+    height: 142px;
+  }
 }

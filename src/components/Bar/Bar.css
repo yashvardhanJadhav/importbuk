@@ -21,3 +21,18 @@
   line-height: 19px;
   color: #ffffff;
 }
+
+.barm {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .bar {
+    display: none;
+  }
+  .barm {
+    display: flex;
+    height: 64px;
+    background-color: white;
+  }
+}

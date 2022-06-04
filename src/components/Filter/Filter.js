@@ -4,7 +4,7 @@ import StarRatingComponent from "react-star-rating-component";
 
 const Filter = () => {
   return (
-    <div className="w-[295px] h-[1150px] fil flex flex-col">
+    <div className="w-[295px] h-[1150px] fil flex flex-col filter">
       <div className="flex flex-col p-5 gap-y-3">
         <p className="fh">Sources</p>
         <div>

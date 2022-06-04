@@ -64,3 +64,35 @@
   line-height: 18px;
   color: #434354;
 }
+
+.him {
+  display: none;
+}
+
+.search-boxm {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .heading {
+    font-size: 27px;
+  }
+  .search-box {
+    display: none;
+  }
+  .hi {
+    display: none;
+  }
+  .him {
+    display: inline-block;
+  }
+  .btn {
+    width: 340px;
+  }
+  .search-boxm {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    margin: auto;
+  }
+}

@@ -10,7 +10,7 @@ import li from "../../images/li.svg";
 
 const Footer = () => {
   return (
-    <div className="w-auto h-80 foot mt-4">
+    <div className="w-auto foot mt-4">
       <div className="up flex justify-around items-center">
         <div className="flex flex-col gap-y-4 w-[282px]">
           <img src={logo} width={134} height={44} />
@@ -54,6 +54,20 @@ const Footer = () => {
           <p className="ft3">Terms & Condition</p>
           <p className="ft3">Privacy Policy</p>
         </div>
+      </div>
+      <div className="social flex gap-x-4 upm">
+        <a href="">
+          <img src={insta} width={36} height={36} />
+        </a>
+        <a href="">
+          <img src={twitter} width={36} height={36} />
+        </a>
+        <a href="">
+          <img src={fb} width={36} height={36} />
+        </a>
+        <a href="">
+          <img src={li} width={36} height={36} />
+        </a>
       </div>
       <div className="down flex justify-center items-center">
         <p className="ft">Buk © 2022. All rights reserved.</p>

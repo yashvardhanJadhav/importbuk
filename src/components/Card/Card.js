@@ -45,7 +45,7 @@ const Card = ({
   return (
     <div className="flex my-6 bg-white card">
       <img src={image} width={346} height={260} />
-      <div className="flex flex-col w-[441px] pl-3 pt-5">
+      <div className="flex flex-col card1 pl-3 pt-5">
         <p className="hhead">{name || <Skeleton />}</p>
         <div className="flex items-center gap-x-2">
           <img src={loc} />
@@ -76,10 +76,10 @@ const Card = ({
           {isWf && <img src={wf} width={117} height={21} />}
         </div>
       </div>
-      <div className="w-[239px] flex flex-col border-l-2">
+      <div className="card2 flex flex-col cardm">
         <div className="flex flex-col gap-y-1">
-          <p className="mt-16 ml-28 cost">${price || <Skeleton />}</p>
-          <p className="ml-28 total">Total ${total || <Skeleton />}</p>
+          <p className="price cost">${price || <Skeleton />}</p>
+          <p className="total total">Total ${total || <Skeleton />}</p>
         </div>
         <div className="flex flex-col gap-y-2 mt-16 items-center">
           <p className="rl">

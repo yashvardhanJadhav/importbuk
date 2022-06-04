@@ -50,14 +50,70 @@ const Search = () => {
           <img src={arr} />
         </div>
       </div>
+      <div className="search-boxm flex flex-col gap-y-4">
+        <div
+          className="flex w-[335px] h-[60px] pl-5 gap-x-3"
+          style={{ backgroundColor: "white", borderRadius: 40 }}
+        >
+          <img src={loc} width={12} height={15} />
+          <input placeholder="Dubai, United Arab Emirates" />
+        </div>
+        <div className="flex justify-between">
+          <div
+            className="flex w-[160px] h-[60px] pl-5 gap-x-4"
+            style={{ backgroundColor: "white", borderRadius: 40 }}
+          >
+            <img src={cal} width={12} height={12}></img>
+            <div className="flex flex-col gap-y-1 pt-2">
+              <p className="c">Check-in</p>
+              <DatePicker
+                selected={startDate}
+                onChange={(date) => setStartDate(date)}
+                className="w-[90px]"
+              />
+            </div>
+          </div>
+          <div
+            className="flex w-[160px] h-[60px] pl-5 gap-x-4"
+            style={{ backgroundColor: "white", borderRadius: 40 }}
+          >
+            <img src={cal} width={12} height={12}></img>
+            <div className="flex flex-col gap-y-1 pt-2">
+              <p className="c">Check-out</p>
+              <DatePicker
+                selected={startDate}
+                onChange={(date) => setStartDate(date)}
+                className="w-[90px]"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="flex w-[335px] h-[60px] pl-5 gap-x-8 items-center"
+          style={{ backgroundColor: "white", borderRadius: 40 }}
+        >
+          <p className="c2">1 Room</p>
+          <img src={arr} />
+          <p className="c2">2 Adults</p>
+          <img src={arr} />
+        </div>
+      </div>
       <Link to="/results" className="m-auto">
         <button className="btn">Search Hotels</button>
       </Link>
       <div
-        className="w-[1360px] h-[485px] m-auto mt-10"
+        className="w-[1360px] h-[485px] m-auto mt-10 hi"
         style={{ background: `url(${hi})` }}
       >
         <p className="save w-[400px] pt-16 pl-10">
+          Save instantly with BUK Rewards
+        </p>
+      </div>
+      <div
+        className="him w-[360px] h-[485px] m-auto mt-10 object-cover"
+        style={{ background: `url(${hi})` }}
+      >
+        <p className="save w-[340px] text-center pt-32">
           Save instantly with BUK Rewards
         </p>
       </div>

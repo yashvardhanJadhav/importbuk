@@ -6,3 +6,9 @@
   line-height: 18px;
   color: #2f69ff;
 }
+
+@media only screen and (max-width: 600px) {
+  .rights {
+    align-items: center;
+  }
+}
