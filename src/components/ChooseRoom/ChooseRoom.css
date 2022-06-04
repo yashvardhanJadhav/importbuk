@@ -6,3 +6,18 @@
   line-height: 31px;
   color: #292931;
 }
+
+.roomi {
+  width: 440;
+  height: 691;
+}
+
+@media only screen and (max-width: 600px) {
+  .room {
+    display: flex;
+    flex-direction: column;
+  }
+  .roomi {
+    width: 360px;
+  }
+}

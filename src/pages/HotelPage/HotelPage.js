@@ -18,12 +18,12 @@ const HotelPage = () => {
     <div>
       <Navbar />
       <Bar />
-      <div className="w-[1360px] m-auto">
+      <div className="m-auto hpage">
         <Link to="/results">
-          <img src={back} className="mt-16" />
+          <img src={back} className="back pl-2" />
         </Link>
         <img src={indi} width={1360} height={440} className="mt-10" />
-        <div className="flex gap-x-10">
+        <div className="flex gap-x-10 hp">
           <div>
             <div className="flex gap-x-4 mt-5 items-center mb-4">
               <p className="hhead">Jumeirah Beach Hotel</p>
@@ -40,17 +40,17 @@ const HotelPage = () => {
               </span>
               <span className="rat-text">Superb</span>
             </div>
-            <p className="w-[900px] descr">
+            <p className="descr">
               is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took...
             </p>
             <p className="loading mt-2">Read more</p>
             <div className="mt-4 -ml-2">
-              <img src={amenties} width={920} height={139} />
+              <img src={amenties} className="ami" />
             </div>
           </div>
-          <div className="flex flex-col mt-7 gap-y-2">
+          <div className="flex flex-col mt-7 gap-y-2 mp">
             <img src={map} width={422} height={218} />
             <p>Benaulim Beach Road, South Goa, Benaulim, Goa, 403716,</p>
             <img src={view} width={111} height={18} />

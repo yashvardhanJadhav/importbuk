@@ -12,15 +12,15 @@ const ChooseRoom = () => {
       <div>
         <p className="ch">Choose your Room</p>
       </div>
-      <div className="flex gap-x-1 mt-5">
+      <div className="flex gap-x-1 mt-5 room">
         <Link to="/sales">
-          <img src={clubroom} widdth={440} height={691} />
+          <img src={clubroom} className="roomi" />
         </Link>
         <Link to="/sales">
-          <img src={twinroom} widdth={440} height={691} />
+          <img src={twinroom} className="roomi" />
         </Link>
         <Link to="/sales">
-          <img src={suiteroom} widdth={440} height={691} />
+          <img src={suiteroom} className="roomi" />
         </Link>
       </div>
     </div>

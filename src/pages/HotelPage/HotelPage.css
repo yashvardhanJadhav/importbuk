@@ -6,4 +6,46 @@
   line-height: 18px;
   text-align: justify;
   color: #646465;
+  width: 900px;
+}
+
+.hpage {
+  width: 1360px;
+}
+
+.ami {
+  width: 920px;
+  height: 139px;
+}
+
+.back {
+  margin-top: 64px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hpage {
+    width: 360px;
+  }
+  .hhead {
+    font-size: 20px;
+  }
+  .rat-text {
+    display: none;
+  }
+  .descr {
+    width: 350px;
+    padding-left: 2px;
+  }
+  .ami {
+    width: 350px;
+    height: 50px;
+  }
+  .hp {
+    display: flex;
+    flex-direction: column;
+    row-gap: -10px;
+  }
+  .back {
+    margin-top: 10px;
+  }
 }

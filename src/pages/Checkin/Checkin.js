@@ -10,7 +10,7 @@ const Checkin = () => {
   return (
     <div>
       <Navbar />
-      <div className="w-[1367px] m-auto mt-3">
+      <div className="checkin m-auto mt-3">
         <img src={bookings} />
         <div className="my-4 flex flex-col gap-y-3">
           <p className="text-center sell">Online Check-in</p>
@@ -19,7 +19,7 @@ const Checkin = () => {
             your stay:
           </p>
         </div>
-        <div className="flex mt-6 mb-20 justify-between">
+        <div className="flex mt-6 mb-20 justify-between checkm">
           <img src={card} />
           <div className="form flex flex-col">
             <p className="pers pl-5 pt-5">Personal Data</p>
