@@ -32,3 +32,8 @@ input[type="range"]::-webkit-slider-runnable-track {
     display: none;
   }
 }
+.radiocolor{
+    accent-color: #640AE7;
+    border-color: #E1E1E1;
+
+}

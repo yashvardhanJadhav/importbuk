@@ -1,174 +1,224 @@
 .hhead {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  color: #292931;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #292931;
 }
 
 .hadd {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  color: #646465;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #646465;
 }
 
 .see {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: right;
-  color: #2f69ff;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #2f69ff;
 }
 
 .card {
-  background: #ffffff;
-  box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
-  border-radius: 2px;
+    background: #ffffff;
+    box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
+    border-radius: 2px;
 }
 
 .line {
-  height: 2px;
-  left: 720px;
-  background-color: #e7ecf2;
+    height: 2px;
+    left: 720px;
+    background-color: #e7ecf2;
 }
 
 .rat {
-  background: linear-gradient(275.36deg, #640ae7 0%, #c856ff 100%);
-  border-radius: 6.88889px;
-  width: 33.3px;
-  height: 21.81px;
-  color: white;
+    background: linear-gradient(275.36deg, #640ae7 0%, #c856ff 100%);
+    border-radius: 6.88889px;
+    width: 33.3px;
+    height: 21.81px;
+    color: white;
 }
 
 .rat-text {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 13px;
-  line-height: 37px;
-  color: #434354;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 37px;
+    color: #434354;
 }
 
 .ut {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 37px;
-  color: #434354;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 37px;
+    color: #434354;
 }
 
-.cost {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 32px;
-  color: #292931;
+.cost1 {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    color: #292931;
 }
 
 .total {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  color: #434354;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #434354;
 }
 
 .choosebtn {
-  background: linear-gradient(0deg, #292931, #292931),
-    linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
-  border-radius: 0px;
-  width: 239px;
-  height: 60px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
+    background: linear-gradient(0deg, #292931, #292931),
+        linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
+    border-radius: 0px;
+    width: 239px;
+    height: 60px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
 }
 
 .choosebtn:hover {
-  background: linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
+    background: linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
 }
 
 .filter-white {
-  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(36deg)
-    brightness(108%) contrast(101%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(36deg) brightness(108%) contrast(101%);
 }
 
 .rl {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: right;
-  color: #640ae7;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #640ae7;
 }
 
-.price {
-  margin-top: 64px;
-  margin-left: 112px;
+.price11 {
+    margin-top: 0px;
+    margin-left: 120px;
 }
 
-.total {
-  margin-left: 112px;
+.total1 {
+    margin-left: 120px;
+    margin-bottom: 22px;
+}
+
+.startingfrom {
+    margin-top: 20px;
+    margin-left: 120px;
+
 }
 
 .card1 {
-  width: 441px;
+    width: 441px;
 }
 
 .card2 {
-  width: 239px;
+    width: 239px;
 }
 
 .cardm {
-  border-left-width: 2px;
+    border-left-width: 2px;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .nonedisp1,
+    .seemap11,.line1 {
+        display: none;
+    }
+
+}
+.line1 {
+    height: 1.5px;
+    left: 720px;
+    background-color: #e7ecf2;
 }
 
 @media only screen and (max-width: 600px) {
-  .card {
-    display: flex;
-    flex-direction: column;
-    width: 346px;
-    column-gap: 30px;
-    padding: 5px;
-    margin-right: 10px;
-  }
-  .cardm {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 346px;
-  }
-  .price {
-    margin-top: 75px;
-    margin-left: 20px;
-  }
-  .total {
-    margin-left: 20px;
-  }
-  .card1 {
-    width: 346px;
-  }
-  .card2 {
-    width: 346px;
-  }
-  .choosebtn {
-    margin-left: 5px;
-    width: 193px;
-  }
-  .cardm {
-    border: 0;
-  }
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 346px;
+        column-gap: 30px;
+        padding: 5px;
+    }
+
+    .btngapalign {
+        margin-top: 20px;
+    }
+
+    .cardm {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 346px;
+    }
+
+    .price11 {
+        margin-top: 40px;
+        margin-left: 20px;
+
+    }
+
+    .cost1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .total1 {
+        margin-left: 20px;
+        margin-bottom: 0;
+
+    }
+
+    .card1 {
+        width: 346px;
+    }
+
+    .card2 {
+        width: 346px;
+    }
+
+    .choosebtn {
+        margin-left: 5px;
+        width: 193px;
+        margin-bottom: 0;
+
+    }
+
+    .cardm {
+        border: 0;
+    }
+
+    .startingfrom,
+    .seemap {
+        display: none;
+    }
+
+    .nonedisp1 {
+        margin-top: 1rem;
+    }
+
 }

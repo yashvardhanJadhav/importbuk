@@ -1,79 +1,133 @@
 .hotel {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 23px;
-  text-align: center;
-  color: #646465;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #646465;
 }
 
 .form {
-  background: #ffffff;
-  box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
-  width: 388px;
-  height: 630px;
+    background: #ffffff;
+    box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
+    width: 388px;
+    height: 630px;
 }
 
 .pers {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 32px;
-  color: #130a44;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #130a44;
 }
 
 .specify {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 16px;
-  color: #646465;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #646465;
 }
 
 .inp {
-  background: #ffffff;
-  border: 1.55556px solid #adadad;
-  border-radius: 6.22222px;
-  width: 348px;
-  height: 60px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 23px;
-  color: #7e7e7e;
+    background: #ffffff;
+    border: 1.55556px solid #adadad;
+    border-radius: 6.22222px;
+    width: 348px;
+    height: 60px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #7e7e7e;
 }
 
 .check {
-  border: 1px solid #adadad;
-  border-radius: 4px;
-  width: 20px;
-  height: 20px;
+    border: 1px solid #adadad;
+    border-radius: 4px;
+    width: 20px;
+    height: 20px;
 }
 
 .ht {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
-  color: #7e7e7e;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #7e7e7e;
 }
 
 .checkin {
-  width: 1367px;
+    width: 1367px;
+}
+
+.btnwidth {
+    width: 350px;
+}
+
+.part1 {
+    height: auto;
+}
+
+.borderlin {
+    border: 1px solid rgba(200, 86, 255, 1);
 }
 
 @media only screen and (max-width: 600px) {
-  .checkin {
-    width: 360px;
-  }
-  .checkm {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
+    .checkin {
+        width: 360px;
+    }
+
+    .pers {
+        font-size: 18px;
+    }
+
+    .checkm {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .dispn {
+        display: none;
+    }
+
+    .lgshow {
+        display: none;
+    }
+
+    .smshow {
+        height: auto;
+    }
+
+    .part1 {
+        margin: 0 0 0 0;
+    }
+
+    .yashchng {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .rowchng {
+        row-gap: 0;
+    }
+
+}
+
+@media only screen and (min-width: 600px) {
+    .dispn1 {
+        display: none;
+    }
+
+    .smshow {
+        display: none;
+    }
+
 }

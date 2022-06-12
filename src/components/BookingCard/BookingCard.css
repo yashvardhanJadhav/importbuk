@@ -1,0 +1,296 @@
+.hhead {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #292931;
+}
+
+.dotsal {
+    margin-left: 240px;
+    margin-top: 15px;
+}
+
+.total12 {
+    margin-left: 125px;
+}
+
+.hadd {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #646465;
+}
+
+.see {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #2f69ff;
+}
+
+.card {
+    background: #ffffff;
+    box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
+    border-radius: 2px;
+}
+
+.line {
+    height: 2px;
+    left: 720px;
+    background-color: #e7ecf2;
+}
+
+.rat {
+    background: linear-gradient(275.36deg, #640ae7 0%, #c856ff 100%);
+    border-radius: 6.88889px;
+    width: 33.3px;
+    height: 21.81px;
+    color: white;
+}
+
+.rat-text {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 37px;
+    color: #434354;
+}
+
+.ut {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 37px;
+    color: #434354;
+}
+
+.cost {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 32px;
+    color: #292931;
+}
+
+.total {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #434354;
+}
+
+.choosebtn {
+    background: linear-gradient(0deg, #292931, #292931),
+        linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
+    border-radius: 0px;
+    width: 239px;
+    height: 60px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+}
+
+.choosebtn:hover {
+    background: linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
+}
+
+.filter-white {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(36deg) brightness(108%) contrast(101%);
+}
+
+.rl {
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: right;
+    color: #640ae7;
+}
+
+.price12 {
+    margin-top: 20px;
+    margin-left: 160px;
+}
+
+.total {
+    margin-left: 112px;
+}
+
+.card11 {
+    width: 410px;
+}
+
+.card2 {
+    width: 239px;
+}
+
+
+.cardm {
+    border-left-width: 2px;
+}
+
+.respimgt {
+    width: 18px;
+    height: 13px;
+}
+
+@media only screen and (min-width: 600px) {
+    .mngHtlDispNone {
+        display: none;
+    }
+
+    .spline {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 346px;
+        column-gap: 30px;
+        padding: 0px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .checkintext {
+        margin-left: 50px;
+    }
+
+    .cardm {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 346px;
+    }
+
+    .price12 {
+        margin-top: 12px;
+        margin-left: 0;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+    }
+
+    .total12 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .resptext {
+        display: none;
+    }
+
+    .card11 {
+        width: 346px;
+    }
+
+    .card2 {
+        width: 346px;
+    }
+
+    .choosebtn {
+        margin-left: 5px;
+        width: 193px;
+    }
+
+    .cardm {
+        border: 0;
+    }
+
+    .makeflex {
+        display: flex;
+    }
+
+    .respimgt {
+        width: 24px;
+        height: 17px;
+    }
+
+    .divmar {
+        margin-top: 1.25rem;
+        margin-left: 95px;
+    }
+
+    .dotsal,
+    .see,
+    .seeimg,
+    .mngHtlDispNone1 {
+        display: none;
+    }
+
+    .flexcontrol {
+        display: inline;
+    }
+
+    .btnalign {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+
+    .btnchngflex {
+        display: flex;
+        width: 100%;
+
+        padding-left: 10px;
+        padding-right: 10px;
+        column-gap: 10px;
+
+    }
+
+    .htlimg {
+        height: 158px;
+        width: 388px;
+    }
+
+    .btnchngflex1 {
+        padding: 0;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+
+    .txtchngflex1 {
+        margin: 0;
+        padding: 8px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+    .txtalign1 {
+        margin-left: 10px;
+    }
+
+    .hhead {
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .hadd {
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .line {
+        display: none;
+    }
+}

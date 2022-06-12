@@ -1,14 +1,22 @@
 .loading {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
-  color: #2f69ff;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #2f69ff;
 }
 
 @media only screen and (max-width: 600px) {
-  .rights {
-    align-items: center;
-  }
+    .yashcss {
+        margin: 0 0 0 0;
+    }
+
+    .rights {
+        align-items: center;
+        margin: 0 0 0 0;
+    }
 }
+
+
+

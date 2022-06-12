@@ -1,51 +1,110 @@
 .descr {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: justify;
-  color: #646465;
-  width: 900px;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: justify;
+    color: #646465;
+    width: 900px;
 }
 
+
+.startpadding{
+    margin-left: 470px;
+}
 .hpage {
-  width: 1360px;
+    width: 1360px;
 }
 
-.ami {
-  width: 920px;
-  height: 139px;
+.hel {
+    width: 920px;
+    /* height: 139px; */
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+
+.closeBtn {
+    margin: 0.5rem 0rem 0.5rem auto;
+}
+
+.amtText {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
 }
 
 .back {
-  margin-top: 64px;
+    margin-top: 64px;
+}
+
+.mp {
+    right: 0;
+}
+
+
+#more,
+#more1 {
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    .imgmob {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
-  .hpage {
-    width: 360px;
-  }
-  .hhead {
-    font-size: 20px;
-  }
-  .rat-text {
-    display: none;
-  }
-  .descr {
-    width: 350px;
-    padding-left: 2px;
-  }
-  .ami {
-    width: 350px;
-    height: 50px;
-  }
-  .hp {
-    display: flex;
-    flex-direction: column;
-    row-gap: -10px;
-  }
-  .back {
-    margin-top: 10px;
-  }
+    .hpage {
+        width: 360px;
+    }
+    .amchng{
+        margin-bottom: 0;
+    }
+    .imgfull {
+        display: none;
+    }
+    #more,#more1{
+        padding-top: 12px;
+    }
+    .hel {
+        width: auto;
+    }
+
+    .hhead {
+        font-size: 20px;
+    }
+
+    .rat-text {
+        display: none;
+    }
+
+    .descr {
+        width: 350px;
+        padding-left: 2px;
+    }
+    .startpadding{
+        margin-left: 100px;
+    }
+    .ami {
+        /* width: 350px; */
+        height: 100%;
+    }
+
+    .hp {
+        display: flex;
+        flex-direction: column;
+        row-gap: -10px;
+    }
+
+    .back {
+        margin-top: 10px;
+    }
+
 }

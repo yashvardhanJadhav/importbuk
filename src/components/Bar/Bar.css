@@ -1,38 +1,72 @@
-.search-box1 {
-  width: 1206px;
-  height: 77px;
-  background: #ffffff;
-  box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
-  border-radius: 40px 0px 0px 40px;
+.search-box {
+    width: 1358px;
+    height: 77px;
+    background: #ffffff;
+    box-shadow: 0px 5px 8px rgba(216, 227, 241, 0.65);
+    border-radius: 40px;
+}
+
+.borderToCheck {
+    border-left: 1.3px solid #2F69FF;
 }
 
 .sbtn {
-  background: linear-gradient(0deg, #2f69ff, #2f69ff),
-    linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
-  border-radius: 0px 40px 40px 0px;
-  width: 152px;
-  height: 77px;
-  position: absolute;
-  right: 55px;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  color: #ffffff;
+    background: linear-gradient(0deg, #2f69ff, #2f69ff),
+      linear-gradient(275.36deg, #2f69ff 0%, #c856ff 100%);
+    border-radius: 0px 40px 40px 0px;
+    width: 152px;
+    height: 77px;
+    /* position: absolute; */
+    right: 0px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+
+.rightbar {
+    margin-left: 95px;
+}
+
+.search-boxm {
+    display: none;
+}
+
+input::placeholder {
+    font-size: 18px;
+    color: #292931;
 }
 
 .barm {
-  display: none;
-}
-
-@media only screen and (max-width: 600px) {
-  .bar {
     display: none;
   }
-  .barm {
-    display: flex;
-    height: 64px;
-    background-color: white;
-  }
+  
+@media only screen and (max-width: 600px) {
+
+    input::placeholder {
+        font-size: 16px;
+        color: #292931;
+    }
+
+    input {
+        width: 250px;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .search-boxm {
+        display: flex;
+        flex-direction: column;
+        width: 340px;
+        margin: auto;
+    }
+    .barm {
+        display: flex;
+        height: 64px;
+        background-color: white;
+      }
 }

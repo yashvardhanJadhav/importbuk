@@ -1,23 +1,67 @@
 .ch {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 31px;
-  color: #292931;
+    font-family: "DM Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #292931;
 }
 
 .roomi {
-  width: 440;
-  height: 691;
+    width: 440;
+    height: 691;
 }
 
+.seeMore {
+    color: #2F69FF;
+}
+
+#rightdiv {
+    float: right;
+}
+
+#leftdiv {
+    float: left;
+}
+
+.tablecon>table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.7em;
+}
+
+
+.borderColor {
+    border-bottom-style: solid;
+    border-bottom-color: #E7ECF2;
+    border-bottom-width: 1px;
+}
+.fontdesc{
+    font-family: 'DM Sans';
+    font-style: normal;
+}
+.w-change {
+    width: 14rem;
+}
+.arroysvg{
+    fill: black;
+}
 @media only screen and (max-width: 600px) {
-  .room {
-    display: flex;
-    flex-direction: column;
-  }
-  .roomi {
-    width: 360px;
-  }
+    .room {
+        display: flex;
+        flex-direction: column;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .roomi {
+        width: 360px;   
+    }
+
+    .w-change {
+        width: 10.3rem;
+    }
+    .blows{
+        font-size: 18px;
+    }
 }

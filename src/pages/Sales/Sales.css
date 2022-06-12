@@ -1,26 +1,124 @@
-.sell {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 47px;
-  text-align: center;
-  color: #130a44;
-}
+    .sell {
+        font-family: "DM Sans";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 47px;
+        text-align: center;
+        color: #130a44;
+    }
 
-.sale {
-  width: 1367px;
-}
+    .borderlin {
+        border: 1px solid rgba(200, 86, 255, 1);
+    }
 
-@media only screen and (max-width: 600px) {
-  .sale {
-    width: 360px;
-  }
-  .sell {
-    font-size: 20px;
-  }
-  .saling {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-}
+    .part1 {
+        height: 536px;
+    }
+
+    .sale {
+        width: 1367px;
+    }
+
+    .buttonClr {
+        background-color: #2F69FF;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .dispnone1 {
+            display: none;
+        }
+    }
+
+    .textinsm {
+        font-size: 30px;
+    }
+
+    .textsell {
+        font-size: 18px;
+    }
+
+    .textsell1 {
+        font-size: 15px;
+    }
+
+    .textcolorid {
+        color: #2F69FF;
+    }
+
+    @media only screen and (max-width: 600px) {
+        .dispnone {
+            display: none;
+        }
+
+        .sale {
+            width: 360px;
+        }
+
+        .parking {
+            margin-left: 0;
+        }
+
+        .sell {
+            font-size: 18px;
+            padding-top: 12px;
+            padding-bottom: 0px;
+        }
+
+        .iconsm {
+            margin-bottom: 10px;
+        }
+
+        .inpusmt {
+            padding-left: 0;
+        }
+
+        .usd1 {
+            padding-left: 0;
+        }
+
+        .saling {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        .part1 {
+            margin-left: 10px;
+            margin-right: 10px;
+            height: auto;
+        }
+
+        .usd1 {
+            padding-left: 10px;
+        }
+
+        .starsm {
+            height: 16px;
+            width: 16px;
+        }
+
+        .textsm {
+            font-size: 10px;
+        }
+
+        .inpusmt {
+            display: none;
+        }
+
+        .fontsmin {
+            font-size: 10px;
+        }
+
+        .hotelhead {
+            font-size: 17px;
+            margin-top: 10px;
+        }
+
+        .tdwidth {
+            width: auto;
+        }
+
+        .usd1 {
+            margin-left: 80px;
+        }
+    }
